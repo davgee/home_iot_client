@@ -14,5 +14,8 @@ def send_data(value, auth_key):
     print(r.text)
 
 if __name__=='__main__':
-    send_data(22, 'some-key')
+    your_key = "some_key"
+    your_data = 22
+    send_data(your_data, your_key)
+
     
